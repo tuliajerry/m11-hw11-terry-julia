@@ -45,7 +45,8 @@ body {
   justify-items: center;
   padding: 12px 0; /* Adjust the top and bottom padding */
   grid-area: nav;
-  align-self: start; /* Move nav to the top */
+  margin-top: 0; /* Add this line to reset margin-top */
+  margin-bottom: 0; /* Add this line to reset margin-bottom */
 }
 
 .nav__link, .nav__link--active {
@@ -74,6 +75,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: 350px;
   gap: 20px;
+  padding: 20px 20px 0; /* Adjust the top padding */
 }
 
 .img_card {
@@ -126,4 +128,5 @@ body {
     display: none;
   }
 }
+
 
